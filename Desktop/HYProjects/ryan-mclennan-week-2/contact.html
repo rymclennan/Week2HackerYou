@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OAK | Contact</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+	
+	<div class="contact-wrapper">
+
+		<nav>
+			<div class="flex-container">
+				<div class="logo"><img src="all-assets/logo.png"></div>
+				<div class="menu-anchor">
+					<a href="#">MENU <img src="all-assets/hamburger.png"></a>
+				</div>
+			</div>
+
+			<ul class="nav-list">
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="index.html">HOME</a></li>
+			</ul>
+		</nav>
+
+		<div class="contact-jumbotron">
+			<div class="contact-banner">
+				<h1>Contact</h1>
+				<img src="all-assets/line.png" alt="">
+				<p>Everything created by a creative</p>
+			</div>
+		</div>
+
+		<section class="contact-form-container clearfix">
+			<div class="contact-box">
+				<div class="contact-asset">
+					<img src="all-assets/phone.jpg" alt="">
+				</div>
+				<div class="contact-item">
+					<p>CALL US:</p>
+					<p>+001 123 222</p>
+				</div>
+				<div class="contact-asset">
+					<img src="all-assets/map.jpg" alt="">
+				</div>
+				<div class="contact-item">
+					<p>ADDRESS:</p>
+					<p>Street 23, CITY p.n</p>
+					<p>300 Canada</p>
+				</div>
+				<div class="contact-asset">
+					<img src="all-assets/envelope.png" alt="">
+				</div>
+				<div class="contact-item">
+					<p>EMAIL:</p>
+					<p>info@gmail.com</p>
+				</div>
+			</div>
+				
+			<form action="contact" class="contact">
+				<div class="name-email-subject">
+					<input type="text" class="contactname" placeholder="NAME">
+					<input type="email" class="contactemail"placeholder="EMAIL">
+					<input type="text" class="subject" placeholder="SUBJECT">
+				</div>
+				<div class="message-submit">
+					<textarea name="message" placeholder="MESSAGE"></textarea>	
+					<input type="submit" class="submit" value="SUBMIT">
+				</div>
+			</form>
+
+		</section>
+
+	</div>
+
+	<footer class="clearfix">
+			
+				<div class="footer-item">
+					<div class="footer-sides">
+					<h3>O.A.K THEME</h3>
+					<p>City 35 AM</p>
+						<p>Street 1395 p.n</p>
+						<p>your Country</p>
+					</div>
+				</div>
+
+				<div class="footer-item">
+					<ul class="footer-list">
+						<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+						<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+						<a href="#"><li><i class="fa fa-flickr"></i></li></a>
+						<a href="#"><li><i class="fa fa-dribbble"></i></li></a>
+						<a href="#"><li><i class="fa fa-pinterest"></i></li></a>
+						<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+						<a href="#"><li><i class="fa fa-google-plus"></i></li></a>
+					</ul>
+
+					<p class="footer-list">© 2015 OAK, ALL RIGHTS RESERVED</p>
+				</div>
+
+				<div class="footer-item">
+					<div class="footer-sides">
+					<h3>CONTACT INFO</h3>
+					<p>T:003 124 115</p>
+						<p>E:info@mail.com</p>
+						<p>W:www.website.com</p>
+					</div>
+				</div>
+	</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+	$(".nav-list").hide();
+
+	$(".menu-anchor").click(function() {
+		$(".nav-list").slideToggle('swing');
+	});
+
+	$(".hamburgermenu").hide();
+
+	$(".hamburger").click(function() {
+		$(".hamburgermenu").toggle('swing');	
+	});
+
+});
+</script>
+	
+
+</body>
+</html>

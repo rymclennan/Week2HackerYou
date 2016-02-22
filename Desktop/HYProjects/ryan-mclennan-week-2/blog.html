@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Oak | Blog</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+	<div class="blog-wrapper">
+		<div class="blog-container">
+			<nav>
+			<div class="flex-container">
+				<div class="logo"><img src="all-assets/logo.png"></div>
+				<div class="menu-anchor">
+					<a href="#">MENU <img src="all-assets/hamburger.png"></a>
+				</div>
+			</div>
+
+				<ul class="nav-list">
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="index.html">HOME</a></li>
+				</ul>
+			</nav>
+
+			<header class="blog-header">
+					<img src="all-images/blog_hero.jpg" alt="">
+					<div class="blog-header-text">
+						<h1>Blog Posts</h1>
+						<img src="all-assets/line.png" alt="">
+						<p>Everything Created by a Creative Trivial</p>
+					</div>
+			</header>
+
+			<div class="blog-entry">
+				<div class="blog-image">		
+					<img src="all-images/blog-1.jpg" alt="">
+				</div>	
+				<div class="blog-text">
+					<h3>14 JUN - 2015</h3>
+					<h4>Idea of denouncing pleasure and praising pain was born</h4>
+					<p>The great explorer of the truth, the master of human happiness rejects, dislike pleasure itself...</p>
+				</div>
+			</div>
+
+			<div class="blog-entry">
+				<div class="blog-image">		
+					<img src="all-images/blog2.jpg" alt="">
+				</div>	
+				<div class="blog-text">
+					<h3>09 JUN - 2015</h3>
+					<h4>Idea of denouncing pleasure and praising pain was born</h4>
+					<p>Great explorer of the truth, the master-builder of human happiness rejects, dislike pleasure itself...</p>
+				</div>
+			</div>
+
+			<div class="blog-entry">
+				<div class="blog-image">		
+					<img src="all-images/blog3.jpg" alt="">
+				</div>	
+				<div class="blog-text">
+					<h3>19 MAY - 2015</h3>
+					<h4>Idea of denouncing pleasure and praising pain was born</h4>
+					<p>Occasionally circumstances occur in which toil and pain can procure him some great pleasure...</p>
+				</div>
+			</div>
+
+		<div class="page-menu-container">
+			<ul class="page-menu clearfix">
+				<a href="#"><li><</li></a>
+				<a href="#"><li>1</li></a>
+				<a href="#"><li>2</li></a>
+				<a href="#"><li>...</li></a>
+				<a href="#"><li>8</li></a>
+				<a href="#"><li>></li></a>
+			</ul>
+		</div>	
+
+	</div>
+
+		<footer class="clearfix">
+			
+				<div class="footer-item">
+					<div class="footer-sides">
+					<h3>O.A.K THEME</h3>
+					<p>City 35 AM</p>
+						<p>Street 1395 p.n</p>
+						<p>your Country</p>
+					</div>
+				</div>
+
+				<div class="footer-item">
+					<ul class="footer-list">
+						<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+						<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+						<a href="#"><li><i class="fa fa-flickr"></i></li></a>
+						<a href="#"><li><i class="fa fa-dribbble"></i></li></a>
+						<a href="#"><li><i class="fa fa-pinterest"></i></li></a>
+						<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+						<a href="#"><li><i class="fa fa-google-plus"></i></li></a>
+					</ul>
+
+					<p class="footer-list">© 2015 OAK, ALL RIGHTS RESERVED</p>
+				</div>
+
+				<div class="footer-item">
+					<div class="footer-sides">
+					<h3>CONTACT INFO</h3>
+					<p>T:003 124 115</p>
+						<p>E:info@mail.com</p>
+						<p>W:www.website.com</p>
+					</div>
+				</div>
+
+			
+
+
+	</footer>
+
+
+
+
+
+
+
+
+		
+	</div> 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+	$(".nav-list").hide();
+
+	$(".menu-anchor").click(function() {
+		$(".nav-list").slideToggle('swing');
+	});
+
+	$(".hamburgermenu").hide();
+
+	$(".hamburger").click(function() {
+		$(".hamburgermenu").toggle('swing');	
+	});
+
+});
+</script>
+
+
+</body>
+</html>
